@@ -63,8 +63,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
-  background-image: url("/img/zelt-sw.jpeg");
+  background-color: rgba(255, 255, 255, 0.80);
+  background-image: url(../img/zelt-sw.jpeg);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -581,6 +581,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3233,7 +3234,7 @@ input[type="button"].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: rgba(255, 255, 0, 0.80);
+  background-color: rgba(255, 255, 255, 0.87);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3407,7 +3408,7 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: rgba(255, 255, 0, 0.55);
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -6758,7 +6759,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: rgba(255, 255, 255, 0.80) !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -10231,4 +10232,14 @@ a.text-dark:hover, a.text-dark:focus {
 .font-nav{
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
+}
+.footer{
+  background-color: rgba(214, 200, 0, 0.85);
+  text-align: center;
+  color: black;
+  padding: 5px;
+  margin: 0;
+  }
+footer p{
+  margin: 0;
 }
